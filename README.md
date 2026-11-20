@@ -43,15 +43,15 @@
 
 ## Готовая прошивка (без компиляции)
 
-Скачать скомпилированные `.bin` файлы можно в разделе **[Releases (последний релиз)](https://github.com)**:
+Скачать скомпилированные `.bin` файлы можно в разделе **[Releases (последний релиз)](https://github.com/nicegrade/ThermoSmart_Relay_X1_v1.2/releases)**:
 
-* **`ThermoSmart_v1.2.0_FULL.bin`** — полный образ для первичной прошивки платы через USB (записывать по адресу `0x0` через [ESP Web Tool](https://huhn.me) или `esptool.py`).
+* **`ThermoSmart_v1.2.0_FULL.bin`** — полный образ для первичной прошивки платы через USB (записывать по адресу `0x0` через [ESP Web Tool](https://esptool.spacehuhn.com/) или `esptool.py`).
 * **`ThermoSmart_v1.2.0_OTA.bin`** — файл для обновления «по воздуху» через веб-интерфейс уже работающего термостата.
 
 ### Быстрая прошивка через браузер (USB)
-1. Скачайте **`ThermoSmart_v1.2.0_FULL.bin`** из [последнего релиза](https://github.com).
+1. Скачайте **`ThermoSmart_v1.2.0_FULL.bin`** из [последнего релиза](https://github.com/nicegrade/ThermoSmart_Relay_X1_v1.2/releases).
 2. Подключите плату к ПК через USB-UART преобразователь (зажав кнопку `BOOT` при подаче питания, если плата не входит в режим загрузки сама).
-3. Откройте в Chrome или Edge онлайн-флешер **[ESP Web Tool](https://huhn.me)**, нажмите **Connect** и выберите COM-порт.
+3. Откройте в Chrome или Edge онлайн-флешер **[ESP Web Tool](https://esptool.spacehuhn.com/)**, нажмите **Connect** и выберите COM-порт.
 4. Укажите смещение (Offset) **`0x0`**, выберите скачанный файл `ThermoSmart_v1.2.0_FULL.bin` и нажмите **Program**.
 
 ## Прошивка (Arduino IDE)
