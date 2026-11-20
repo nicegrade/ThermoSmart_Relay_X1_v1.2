@@ -1,0 +1,12 @@
+# Локальные рабочие файлы
+AGENTS.md
+preview.html
+_preview_check.js
+*.txt
+
+# Папка сборки Arduino
+build/
+
+# Системные файлы Windows
+Thumbs.db
+Desktop.ini
