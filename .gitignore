@@ -5,7 +5,7 @@ _preview_check.js
 *.txt
 
 # Папка сборки Arduino
-build/
+ThermoSmart_Relay_X1_v1.2/build/
 
 # Системные файлы Windows
 Thumbs.db
